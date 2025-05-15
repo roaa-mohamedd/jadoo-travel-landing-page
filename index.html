@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jadoo Landing Page</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="aos-master/dist/aos.css">
+ 
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      padding-top: 80px;
+      background-color: #f8f9fa;
+    }
+    .navbar-brand img {
+      width: 90px;
+      height: auto;
+    }
+    .navbar-nav .nav-link,
+    .nav-link.text-dark {
+      transition: color 0.3s ease;
+    }
+    .navbar-nav .nav-link:hover,
+    .nav-link.text-dark:hover {
+      color: orange !important;
+    }
+    .btn:hover {
+      background-color: orange !important;
+      color: white !important;
+    }
+    .dropdown-menu a:hover {
+      background-color: orange !important;
+    }
+    .card {
+      border-radius: 20px;
+    }
+    .card:hover {
+      transform: translateY(-10px) scale(1.03);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+.subscribe-box {
+  background-color: #EEE9FF;
+  border-radius: 30px;
+  width: 80%;
+  max-width: 700px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.subscribe-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+.send-bubble {
+  top: -18px;
+  right: -18px;
+}
+.bubble-circle {
+  background-color: #A27CF3;
+  width: 40px; height: 40px;
+  border-radius: 50%;
+}
+  </style>
+</head>
+<body>
+  <script src="js/bootstrap.bundle.min.js"></script>
+<nav class="navbar navbar-expand-lg bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="images/Jadoo.png" alt="Jadoo Logo" /></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link text-dark" href="#">Destinations</a></li>
+        <li class="nav-item"><a class="nav-link text-dark" href="#">Hotels</a></li>
+        <li class="nav-item"><a class="nav-link text-dark" href="#">Flights</a></li>
+        <li class="nav-item"><a class="nav-link text-dark" href="#">Bookings</a></li>
+      </ul>
+      <div class="d-flex gap-3 align-items-center">
+        <a class="nav-link text-dark" href="#">Login</a>
+        <a class="btn btn-warning text-dark" href="#">Signup</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            EN
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+            <li><a class="dropdown-item" href="#">English</a></li>
+            <li><a class="dropdown-item" href="#">Arabic</a></li>
+            <li><a class="dropdown-item" href="#">Spanish</a></li>
+            <li><a class="dropdown-item" href="#">French</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<section class="py-5">
+  <div class="container" data-aos="fade-up">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h5 class="text-danger">Best Destinations Around the World</h5>
+        <h1>Travel, enjoy and live a new and full life</h1>
+        <p>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
+        <a href="#" class="btn btn-warning mt-3">Find out more</a>
+      </div>
+      <div class="col-md-6 text-center" data-aos="fade-left">
+        <img src="images/traveller.png" alt="Traveler" class="img-fluid" />
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-5 text-center">
+  <div class="container">
+    <h3 class="mb-3 text-muted" data-aos="fade-up">Category</h3>
+    <h2 class="mb-5" data-aos="fade-up">We Offer Best Services</h2>
+    <div class="row g-4">
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card p-3 ">
+          <img src="images/Ser1.png" alt="Calculated Weather" class="card-img-top" style="height: 120px; object-fit: contain;">
+          <div class="card-body">
+            <h5 class="card-title">Calculated Weather</h5>
+            <p class="card-text">Built Wicket longer admire do barton vanity itself do in it.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card p-3 ">
+          <img src="images/Ser2.png" alt="Best Flights" class="card-img-top" style="height: 120px; object-fit: contain;">
+          <div class="card-body">
+            <h5 class="card-title">Best Flights</h5>
+            <p class="card-text">Engrossed listening. Park gate sell they west hard for the.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
+        <div class="card p-3">
+          <img src="images/Ser3.png" alt="Local Events" class="card-img-top" style="height: 120px; object-fit: contain;">
+          <div class="card-body">
+            <h5 class="card-title">Local Events</h5>
+            <p class="card-text">Barton vanity itself do in it. Preferred to men it engrossed listening.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="400">
+        <div class="card p-3">
+          <img src="images/Ser4.png" alt="Customization" class="card-img-top" style="height: 120px; object-fit: contain;">
+          <div class="card-body">
+            <h5 class="card-title">Customization</h5>
+            <p class="card-text">We deliver outsourced aviation services for military customers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-5">
+  <div class="container text-center">
+    <h3 class="mb-3 text-muted" data-aos="fade-up">Top Selling</h3>
+    <h2 class="mb-5" data-aos="fade-up">Top Destinations</h2>
+    <div class="row justify-content-center g-4">
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card" style="width: 100%; height: 500px;">
+          <img src="images/roma.png" alt="Rome" class="card-img-top" style="height: 400px; object-fit: cover;">
+          <div class="card-body text-start">
+            <h5>Rome, Italy</h5>
+            <p>$5.42k · 10 Days Trip</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="card" style="width: 100%; height: 500px;">
+          <img src="images/london.jpg" alt="London" class="card-img-top" style="height: 400px; object-fit: cover;">
+          <div class="card-body text-start">
+            <h5>London, UK</h5>
+            <p>$4.2k · 12 Days Trip</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="card" style="width: 100%; height: 500px;">
+          <img src="images/euro.png" alt="Europe" class="card-img-top" style="height: 400px; object-fit: cover;">
+          <div class="card-body text-start">
+            <h5>Full Europe</h5>
+            <p>$15k · 28 Days Trip</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container py-5">
+  <div class="row align-items-start">
+    <div class="col-md-7" data-aos="fade-right">
+      <h2 class="fw-bold display-3 mb-4">Book your Next Trip <br>in 3 Easy steps</h2>
+      <div class="d-flex mb-4" data-aos="fade-up" data-aos-delay="100">
+        <img src="images/Chooce dest.png" class="me-3" width="50" alt="">
+        <div>
+          <h5>Choose Destination</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</p>
+        </div>
+      </div>
+      <div class="d-flex mb-4" data-aos="fade-up" data-aos-delay="200">
+        <img src="images/Make pay.png" class="me-3" width="50" alt="">
+        <div>
+          <h5>Make Payment</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</p>
+        </div>
+      </div>
+      <div class="d-flex" data-aos="fade-up" data-aos-delay="300">
+        <img src="images/Reach.png" class="me-3" width="50" alt="">
+        <div>
+          <h5>Reach Airport on Selected Date</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 position-relative mt-5 mt-md-0" data-aos="fade-left">
+      <div class="card shadow rounded-4 overflow-hidden p-4 mb-4">
+        <img src="images/Trip to greece.png" alt="" style="width: 100%; border-radius: 24px; height: 161px; object-fit: cover;">
+        <div class="p-3">
+          <h5 class="fw-bold text-dark">Trip To Greece</h5>
+          <p class="text-secondary small mb-2">14-29 June | by Robbin Joseph</p>
+          <p class="mb-0 fw-medium text-secondary">24 people going</p>
+        </div>
+      </div>
+      <div class="card shadow-sm rounded-4 p-3 position-absolute" style="bottom: 40px; right: -100px; width: 220px;" data-aos="zoom-in" data-aos-delay="400">
+        <div class="d-flex align-items-center mb-2">
+          <img src="images/Trip to rome.png" class="rounded-circle me-2" width="40" alt="">
+          <div>
+            <small class="text-secondary">Ongoing</small>
+            <h6 class="mb-0 text-dark fw-semibold">Trip to Rome</h6>
+          </div>
+        </div>
+        <p class="mb-1 text-secondary small"><span class="text-primary fw-semibold text-dark">40%</span> completed</p>
+        <div class="progress" style="height: 6px;">
+          <div class="progress-bar bg-warning" style="width: 40%;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="py-5" id="testimonials">
+  <div class="container">
+    <h5 class="text-uppercase text-muted text-center">Testimonials</h5>
+    <h2 class="fw-bold text-center mb-5">What People Say <br> About Us.</h2>
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card p-4 shadow-sm border-0 mx-auto" style="max-width: 600px;">
+            <p class="text-muted fst-italic">
+              “On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”
+            </p>
+            <div class="d-flex align-items-center mt-4">
+              <img src="images/mike.png" class="rounded-circle me-3" width="60" alt="">
+              <div>
+                <h6 class="mb-0 fw-semibold">Mike Taylor</h6>
+                <small class="text-muted">Lahore, Pakistan</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card p-4 shadow-sm border-0 mx-auto" style="max-width: 600px;">
+            <p class="text-muted fst-italic">
+              “The best experience I've ever had while booking a trip! Everything was so simple and stress-free.”
+            </p>
+            <div class="d-flex align-items-center mt-4">
+              <img src="images/mike.png" class=class="rounded-circle me-2" width="60" alt="">
+              <div>
+                <h6 class="mb-0 fw-semibold">Chris Thomas</h6>
+                <small class="text-muted">CEO of Red Button</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+<section class="py-5 " id="sponsors">
+  <div class="container text-center">
+    <div class="row justify-content-center align-items-center g-4">
+      <div class="col-6 col-md-2">
+        <img src="images/sp1.png" alt="Axon" class="img-fluid grayscale sponsor-logo">
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="images/sp2.png" alt="Jetstar" class="img-fluid grayscale sponsor-logo">
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="images/sp3.png" alt="Expedia" class="img-fluid grayscale sponsor-logo">
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="images/sp4.png" alt="Qantas" class="img-fluid grayscale sponsor-logo">
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="images/sp5.png" alt="Alitalia" class="img-fluid grayscale sponsor-logo">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-5 d-flex justify-content-center">
+  <div class="subscribe-box position-relative text-center px-3 py-4">
+    <h5 class="mb-3 fw-semibold text-dark">
+      Subscribe to get information, <br>
+      latest news and offers about Jadoo
+    </h5>
+    <form class="d-flex justify-content-center">
+      <label for="email" class="visually-hidden">Enter your email</label>
+      <input type="email" id="email" class="form-control me-2 w-75" placeholder="Enter your email" required>
+      <button type="submit" class="btn btn-warning">Subscribe</button>
+    </form>
+    <div class="send-bubble position-absolute">
+      <div class="bubble-circle d-flex align-items-center justify-content-center">
+        <i class="bi bi-send text-white"></i>
+      </div>
+    </div>
+  </div>
+</section>
+<footer> 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5 class="fw-bold text-warning">Jadoo</h5>
+        <p>Explore new destinations with Jadoo. Book your next trip in just a few simple steps.</p>
+      </div>
+      <div class="col-md-4">
+        <h5 class="fw-bold">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-dark text-decoration-none">Home</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Destinations</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Offers</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5 class="fw-bold">Follow Us</h5>
+        <ul class="list-unstyled d-flex">
+          <img src="images/fb.png" class="rounded-circle me-3" width="90" alt="">
+          <img src="images/ig.png" class="rounded-circle me-3" width="90" alt="">
+          <img src="images/twiter.png" class="rounded-circle me-3" width="90" alt="">
+        </ul>
+      </div>
+    </div>
+    <div class="row mt-4 text-center">
+      <div class="col-md-6">
+        <a href="#" class="d-inline-block">
+          <img src="images/Google Play.png" alt="Google Play" style="max-width: 150px;">
+        </a>
+      </div>
+      <div class="col-md-6">
+        <a href="#" class="d-inline-block">
+          <img src="images/Play Store.png" alt="App Store" style="max-width: 150px;">
+        </a>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <small>&copy; 2025 Jadoo. All Rights Reserved.</small>
+    </div>
+  </div>
+</footer>
+<script src="aos-master/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
